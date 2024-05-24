@@ -1,0 +1,10 @@
+version 2.0.0
+This current version resolves the main problem that is a lack of guided user interface,
+during the execution of the template-automate program.
+The following features have been added into the application:
++ Render Project Handling: Now users can have multiple projects, dealing with the problem
+of only rendering one data_base at the time.
+
+version 1.1.0 (stable)
+This versión was launched into the community as a problem solving for automating reports
+or templates.

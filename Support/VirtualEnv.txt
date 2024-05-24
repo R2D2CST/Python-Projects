@@ -1,0 +1,10 @@
+Paso 1: virtualenv -p python3 {{env}}
+Paso 1.1 (Solo en caso de error en activar): Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+Paso 1.2 (Solo en caso de error en activar): Set-ExecutionPolicy RemoteSigned
+Paso 2 (puedo usar tab para auto-completar la ruta): .\{{env}}\Scripts\activate
+Paso 3 (Para ver los paquetes instalados): pip list
+Paso 4 (Para desactivar): deactivate
+Paso 5 (Para vaciar el contenido instalado en un archivo): pip freeze > requirements.txt
+Paso 6 (Para instalar varios requerimientos): pip install -r .\requirements.txt
+
+paso 1: python -m venv /path/to/new/virtual/environment

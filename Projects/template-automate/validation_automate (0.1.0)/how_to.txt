@@ -1,0 +1,18 @@
+Requerimientos:
+En esta carpeta se debe encontrar una carpeta llamada "Templates" la cual debe contener todas las plantillas a renderizar.
+En esta misma carpeta se debe contener un archivo de excel llamado data_base.xlsx el cual debe contener una hoja llamada "panel".
+Dentro de la Hoja "Panel" donde se debe encortar toda la base de datos a capturar en las plantillas.
+Consideraciones:
+La fila 1 esta reservada al nombre de cada columna. La fila 2 esta reservada para las palabras clave
+contenidas dentro de cada plantilla entre corchetes {{}}. La primer columna esta reservada al identificador de cada carpeta a almacenar
+la renderización de cada plantilla.
+Procedimiento de Acción:
+1: Colocar las plantillas dentro de la caperta Templates y asegurarse que la base de datos este completa y correctamente llenada.
+2: Cerrar todos los archivos de micrososft office abiertos y de preferencias resto de pestañas.
+3: Ejecutar el programa.
+
+Procedimiento para crear una plantilla:
+1: registre las llaves o palabras clave entre corchetes sin espacios {{palabra_calve}} dentro de las plantillas.
+2: registre la palabra clave en excel en la fila 2 sin corchetes solo las palabras clave "palabra_calve".
+3: registre por debajo de cada palara clave los valores asociados a cada corrida para la palabra clave, considere que cada fila por
+debajo de la palabra clave es un documento o corrida.

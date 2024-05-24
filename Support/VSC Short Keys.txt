@@ -1,0 +1,9 @@
+
+
+Al pulsar Ctrl + k -> 0 (sin soltar ctrl) colapso todo el código.
+Al pulsar Ctrl + k -> j (sin soltar ctrl) extiendo todo el código.
+
+    username = "Arturo Castella"
+    password = "ValArt1311 & 1311ArtVal"
+    pin = "19032022"
+    privileges = ["Developer"]

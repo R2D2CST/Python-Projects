@@ -1,0 +1,31 @@
+
+Un ejecutable Python es un archivo independiente que contiene todos lo necesario para ejecutar un
+programa escrito en Python sin requerir que el ususario tenga instalado el intérprete de Python en
+sus sitema. En otras palabras es un archivo ejecutable que encapsula un script de python y las 
+dependencias necesarias, permitiendo que el programa se ejecute de manera autónoma en un entorno que
+no tiene Python Instalado.
+
+Es imortatne tomar en cuenta que aunque la creación de ejecutables puede facilitar la distribución
+de programas python, tambien puede aumentar el tamaño del archivo y puede haber limietaciones 
+dependiendo del sistema operativo y la arquitectura del hardware.
+
+
+Windos + R y buscamos "cmd" la terminal
+"dir" (para ver el directorio de ubicaciones)
+"cd" (para ingresar al directorio)
+"cls" (para limpiar terminal)
+hacemos esto hasta llegar el directorio de mi programa
+
+# Si ya esta installado omitor
+python get-pip.py (Para instalar el PyInstaller)
+pip install pyinstaller (Para instalar PyInstaller)
+# Se puede verificar la instalación con "objeto --version"
+
+"pyinstaller --onefile nombre_del_archivo_python.py "
+
+
+
+////////////////////////////////////////////////////////////////////////////
+
+pip install auto-py-to-exe
+auto-py-to-exe

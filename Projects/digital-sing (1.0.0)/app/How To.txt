@@ -1,0 +1,39 @@
+Bienvenido al programa Digital-Sign (ver 1.0.0)
+Antes de comenzar todo documento a firmar deberá estar guardado en una terminación .docx
+(Documento de Microsoft Word) en el sitio donde se pretende ingresar la firma electrónica
+se debe colocar la palabra clave {{sitio_de_firma}} (El programa no reconocerá otra
+palabra clave diferente a esta).
+
+Si solo se pretende firmar una sola vez documento ejecute el programa digital-sign (final)
+Este programa firma y entrega un documento en formato PDF.
+
+Si es la primera de varias o un firma intermedia y no la firma final; ejecute el programa
+digital-sign (primero-intermedios). Este programa firma y entrega un documento en formato
+DOCX.
+
+Una vez en el programa el programa desglosará los siguientes términos y condiciones de uso:
+
+"
+El presente programa esta desarrollado para Laboratorios Cosmedilab S.A de C.V.
+La reproducción parcial o total de este sistema computacional queda totalmente
+prohibida sin la autorización escrita por parte de Laboratorios Cosmedilab.
+El presente sistema computacional tiene por objetivo el registro de firmas
+electrónicas en cumplimiento con la NOM-241-SSA1-2021 y CFR 21 parte 11.
+"
+Deberá acceder a estos términos y condiciones pulsando Y+(Enter) para si.
+En caso de no acordar a los términos y condiciones (cualquier otro escenario diferente a Y)
+el programa no le permitirá continuar y terminará.
+
+Al acordar sus términos le solicitará seleccionar el documento a firmar, cualquier documento
+selecionado diferente al que contenga la palabra clave {{sitio_de_firma}} resultará en un error.
+
+Posteriormente solicitará se identifique mediante su nombre completop escribiéndolo en la
+ventana del programa y después deberá presionar Enter.
+
+Posteriormente deberá firmar con su rúbrica (de acuerdo al sistema de gestión de calidad que le
+aplique).
+Ejemplo de rubrica en Laboratorios Cosmedilab -> "L.Cortez"
+
+Al terminar de ingresar estos datos deberá pulsar enter y el programa automáticamente realizará
+la firma del documento. En caso de haber varios puede repetir el ciclo de firmas pulsando Y (si)
+de lo contrario saldrá del programa pulsando N o cualquier otro evento diferente a (Y).

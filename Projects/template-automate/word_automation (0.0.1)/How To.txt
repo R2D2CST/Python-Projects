@@ -1,0 +1,5 @@
+1.- Primero instalar las librerías: docxtpl, python-docx, xlwings
+2.- Segundo iniciar en terminal una nueva carpeta de proyecto:
+xlwings quickstart word_automation --
+3.- Crear la Plantilla de word con el cual se va a rellenar los datos.
+4.- Señalar los campos en el documento de word entre dobles corchetes {{Ejemplo}}
