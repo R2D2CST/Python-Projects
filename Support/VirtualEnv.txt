@@ -8,3 +8,49 @@ Paso 5 (Para vaciar el contenido instalado en un archivo): pip freeze > requirem
 Paso 6 (Para instalar varios requerimientos): pip install -r .\requirements.txt
 
 paso 1: python -m venv /path/to/new/virtual/environment
+
+En caso de no poder activar el ambiente
+
+Opción 1: Cambiar la política de ejecución temporalmente
+Puedes cambiar la política de ejecución para la sesión actual de PowerShell con el siguiente comando:
+
+powershell
+Copiar código
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+Este comando te permitirá ejecutar scripts solo durante la sesión actual de PowerShell. Una vez que cierres la sesión, la política de ejecución volverá a su estado anterior.
+
+Opción 2: Cambiar la política de ejecución para tu usuario
+Puedes cambiar la política de ejecución para tu usuario actual de forma permanente con el siguiente comando:
+
+powershell
+Copiar código
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+Este comando permitirá la ejecución de scripts locales y scripts descargados de Internet que estén firmados digitalmente.
+
+Opción 3: Cambiar la política de ejecución para todo el sistema
+Si tienes permisos de administrador y deseas cambiar la política de ejecución para todo el sistema, puedes usar el siguiente comando:
+
+powershell
+Copiar código
+Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy RemoteSigned
+Este comando cambiará la política de ejecución para todos los usuarios en el sistema.
+
+Pasos para aplicar la solución:
+Abre PowerShell como administrador:
+
+Busca "PowerShell" en el menú Inicio.
+Haz clic derecho en "Windows PowerShell" y selecciona "Ejecutar como administrador".
+Ejecuta uno de los comandos mencionados anteriormente dependiendo de la opción que prefieras.
+
+Intenta activar tu entorno virtual nuevamente:
+
+powershell
+Copiar código
+.\env\Scripts\activate
+Ejemplo:
+powershell
+Copiar código
+PS C:\Users\R2d2c\OneDrive\Documentos\Visual Studio Code> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+PS C:\Users\R2d2c\OneDrive\Documentos\Visual Studio Code> .\env\Scripts\activate
+(env) PS C:\Users\R2d2c\OneDrive\Documentos\Visual Studio Code>
+Siguiendo estos pasos, deberías poder activar tu entorno virtual sin problemas.
